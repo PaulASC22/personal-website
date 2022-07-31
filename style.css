@@ -24,11 +24,18 @@ body {
 }
 
 #title {
-    background-image: url(images/glitter.gif);
-    width:500px;
+    background-image: url(images/crown.png);
+    background-size:cover;
+    width:200px;
+    height:200px;
+    margin:auto;
+    
+    
 }
 
 .heading {
     color:black;
     font-family: sans-serif;
+    padding-top:25%;
+    padding-left:8%;
 }
