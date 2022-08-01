@@ -1,41 +1,124 @@
 body {
-    
+    color:black;
 }
-#header {
-    width:100px;
-    height:1000px;
-    background-color:;
-}
-
-#nav_bar li{
-    margin-top:50px;
-
+#nav_bar ul{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    padding:1px;
+    align-items: center;
     
 }
 
 #nav_bar {
-    flex-direction:column;
-    font-family:"Helvetica";
-    font:bold;
-    list-style-type: none;
-    color: black;
-    padding:200px 15px;
-   
+    margin:5px;
+    display: flex;
+    border-bottom: 2px solid rgba(210, 210, 210);
+    justify-content:space-between;
+    list-style-type:none;
+    color:black;
 }
 
-#title {
-    background-image: url(images/crown.png);
-    background-size:cover;
-    width:200px;
-    height:200px;
-    margin:auto;
-    
+#header {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size:35px;
+    padding-top:1%;
+    background-color:aqua;
     
 }
 
 .heading {
     color:black;
-    font-family: sans-serif;
-    padding-top:25%;
-    padding-left:8%;
+    font-family:'Courier New', Courier, monospace; font-size:50px;
+    font:bolder;
+}
+
+
+
+#container1_div {
+    color:black;
+    font-family:Arial, Helvetica, sans-serif; font-size:22px;
+    display:block;
+
+}
+
+.text1 {
+    display:flex;
+    text-align:center;
+    padding-left:50px;
+    background-color:aqua;
+}
+
+#my_image {
+    display:block;
+    width:10%;
+    height:10%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.about_me {
+    display:flex;
+    justify-content:center;
+    line-height:2em;
+    font-size:25px;
+}
+
+.hobby_me {
+    display:flex;
+    justify-content:center;
+    line-height:2em;
+    font-size:25px;
+}
+
+#hobbies_div {
+    display:flex;
+    justify-content:space-around;
+}
+
+.hubby {
+    font-size:18px;
+    width:225px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+}
+
+#hubby_image {
+    width:100%;
+}
+
+.hobby_titles {
+    font-weight:bold;
+    font-size:25px;
+    border:2px solid black;
+    border-radius:25px;
+}
+
+#classes {
+    display:flex;
+    justify-content:space-evenly;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:30px;
+}
+
+.text2 {
+    padding-left:50px;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif; font-size:22px;
+    text-align:center;
+    background-color:aqua;
+}
+
+.class_titles {
+    font-weight:bold;
+    font-size:35px;
+    border:2px solid black;
+    border-radius:25px;
+}
+
+#contacts_div {
+    padding-left:800px;
+    background-color:aqua;
+}
+
+.contact {
+    font-family:sans-serif; font-size:25px;
 }
